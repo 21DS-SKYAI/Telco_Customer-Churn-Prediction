@@ -1,28 +1,34 @@
+Customer Churn Prediction Model for Telecom Sector
 
-Customer Churn Prediction
+Dataset Link: The dataset can be found on Kaggle – https://www.kaggle.com/blastchar/telco-customer
 
-Project Description:
-Developed a comprehensive machine learning model to predict customer churn for a Telcom company dataset, leveraging historical client data to identify patterns and key risk factors.
+Project Overview: Developed a sophisticated machine learning model to predict customer churn for a telecom company. Leveraged advanced data handling techniques and classifiers to ensure high prediction accuracy.
 
 Key Responsibilities:
 
-Data Collection and Preprocessing: Gathered and cleaned extensive datasets, including customer demographics, transaction history, and engagement metrics.
+Data Preprocessing: Cleaned and transformed raw data, handled missing values, and encoded categorical variables.
 
-Feature Engineering: Created meaningful features from raw data, such as customer tenure, transaction frequency, and engagement scores.
+Imbalanced Data Handling: Applied SMOTEENN (Synthetic Minority Over-sampling Technique and Edited Nearest Neighbors) to balance the dataset, ensuring better model performance on minority classes.
 
-Model Development: Implemented and compared various machine learning algorithms (e.g., Logistic Regression, Random Forest, Gradient Boosting) to identify the most accurate model.
+Model Training and Evaluation:
 
-Evaluation and Optimization: Evaluated model performance using metrics such as accuracy, precision, recall, and AUC-ROC, and optimized the model through hyperparameter tuning.
+Implemented Decision Tree and Random Forest classifiers.
 
+Evaluated models using precision, recall, f1-score, and confusion matrix.
 
-Benefits:
-------------------
-Enhanced customer retention through proactive identification of potential churners.
+Achieved an accuracy of 92.36% with the Random Forest classifier, with high precision and recall for the minority class.
 
-Improved resource allocation by focusing efforts on high-risk customers.
+Model Deployment: Saved the trained model as model.sav for easy deployment through APIs, enabling real-time churn prediction.
+Technologies Used:
 
-Strengthened customer relationships and loyalty, contributing to long-term business growth.
+Programming Languages: Python
 
-Model development using scikit-learn.
+Libraries: Pandas, Scikit-learn, Imbalanced-learn
 
-Achieved an accuracy of 76.55% for proactive customer retention strategies.
+Techniques: SMOTEENN, Decision Tree, Random Forest, Data Preprocessing
+
+Impact:
+
+Accuracy Improvement: Enhanced model accuracy and reliability, particularly for predicting churned customers.
+
+Business Value: Enabled the telecom company to proactively address customer churn, improving retention strategies and overall revenue.
