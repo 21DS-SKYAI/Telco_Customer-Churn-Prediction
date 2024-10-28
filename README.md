@@ -3,6 +3,9 @@
   <strong>Using advanced machine learning techniques to predict telecom customer churn and improve retention strategies</strong>
 </p>
 
+![Project Banner](Customer churn banner.png)
+
+
 ---
 
 ## 🌐 Dataset
