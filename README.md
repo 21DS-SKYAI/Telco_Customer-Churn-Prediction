@@ -3,7 +3,7 @@
   <strong>Leveraging machine learning to identify at-risk customers and enhance retention strategies</strong>
 </p>
 
-![Project Banner](Customer_churn_banner.png)
+
 
 ---
 
@@ -19,7 +19,7 @@ This project builds a predictive model to **detect customer churn** in the telec
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 🔹 1. Data Preprocessing
 - Addressed missing values and inconsistent entries  
@@ -76,6 +76,7 @@ This project builds a predictive model to **detect customer churn** in the telec
 - **Deploy model using Flask or FastAPI** for real-world application  
 - **Enhance feature engineering** for better predictive power  
 
+![Project Banner](Customer_chur_banner.png)
 ---
 
 ## 🤝 Contributing
