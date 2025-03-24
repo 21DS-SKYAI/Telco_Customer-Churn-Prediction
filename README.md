@@ -1,73 +1,84 @@
-<h1 align="center">📉 Customer Churn Prediction Model for Telecom Sector</h1>
+<h1 align="center">📉 Telecom Customer Churn Prediction</h1>
 <p align="center">
-  <strong>Using advanced machine learning techniques to predict telecom customer churn and improve retention strategies</strong>
+  <strong>Leveraging machine learning to identify at-risk customers and enhance retention strategies</strong>
 </p>
-  
-  ![Project Banner](Customer_chur_banner.png)
 
-
+![Project Banner](Customer_churn_banner.png)
 
 ---
 
 ## 🌐 Dataset
-The dataset is sourced from Kaggle and can be found [here](https://www.kaggle.com/blastchar/telco-customer).
+- **Source**: Kaggle ([Dataset Link](https://www.kaggle.com/blastchar/telco-customer))  
+- **Description**: Contains customer demographics, service details, and churn labels  
+- **Preprocessing**: Handled missing values, encoded categorical features, and normalized numerical data  
 
 ---
 
 ## 📝 Project Overview
-Developed a sophisticated machine learning model to predict **customer churn** for a telecom company. This project leverages **data preprocessing**, **imbalanced data handling**, and **high-performance classifiers** to ensure reliable predictions with high accuracy.
+This project builds a predictive model to **detect customer churn** in the telecom sector. By utilizing **data preprocessing, imbalance handling, and robust classifiers**, it provides actionable insights to reduce churn and improve customer retention.
 
 ---
 
-## 📌 Key Responsibilities
+## 🚀 Key Features
 
-### 1. Data Preprocessing
-- **Cleaning and Transforming**: Addressed missing values and transformed raw data.
-- **Encoding Categorical Variables**: Converted categorical features into numerical values for compatibility with machine learning models.
+### 🔹 1. Data Preprocessing
+- Addressed missing values and inconsistent entries  
+- Converted categorical features using **one-hot encoding**  
+- Scaled numerical variables to optimize model performance  
 
-### 2. Imbalanced Data Handling
-- Applied **SMOTEENN (Synthetic Minority Over-sampling Technique and Edited Nearest Neighbors)** to balance the dataset, improving model performance on minority classes (i.e., churned customers).
+### 🔹 2. Imbalanced Data Handling
+- Applied **SMOTEENN (Synthetic Minority Over-sampling and Edited Nearest Neighbors)** to balance the dataset  
+- Improved recall for churned customers while maintaining overall model stability  
 
-### 3. Model Training and Evaluation
-- Implemented **Decision Tree** and **Random Forest** classifiers.
-- Evaluated model performance using:
-  - **Precision**
-  - **Recall**
-  - **F1-Score**
-  - **Confusion Matrix**
-- Achieved **92.36% accuracy** with the Random Forest classifier, ensuring high precision and recall for the minority (churned) class.
+### 🔹 3. Model Training & Evaluation
+- Implemented **Decision Tree** and **Random Forest** classifiers  
+- Assessed model performance using:
+  - **Precision, Recall, F1-Score, and Confusion Matrix**
+- **Achieved 92.36% accuracy** with the Random Forest model  
 
-### 4. Model Deployment
-- Saved the trained model as `model.sav` for easy deployment through **APIs**, enabling real-time churn predictions.
+### 🔹 4. Model Deployment
+- Saved the trained model as `model.sav`  
+- Ready for **API integration** to enable real-time churn prediction  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Programming Language**: Python
-- **Libraries**: `pandas`, `scikit-learn`, `imbalanced-learn`
-- **Techniques**: SMOTEENN, Decision Tree, Random Forest, Data Preprocessing
+| Category  | Tools & Libraries |
+|-----------|------------------|
+| **Programming** | Python |
+| **Libraries** | `pandas`, `scikit-learn`, `imbalanced-learn`, `matplotlib` |
+| **Techniques** | SMOTEENN, Decision Tree, Random Forest, Data Preprocessing |
 
 ---
 
-## 💡 Impact
-- **Accuracy Improvement**: Enhanced model accuracy and reliability, particularly in predicting churned customers.
-- **Business Value**: Enabled proactive customer churn management, allowing the telecom company to improve customer retention strategies and boost overall revenue.
+## 📊 Model Performance
+| Metric       | Decision Tree | Random Forest |
+|--------------|--------------|--------------|
+| **Accuracy** | 82.8% | 92.36% |
+| **Precision** | Moderate | High |
+| **Recall** | Low | High |
+| **F1-Score** | Moderate | High |
+
+- **Random Forest** significantly improved recall for churned customers, making it the preferred model.  
 
 ---
 
-## 📊 Evaluation Metrics
-| Metric       | Value  |
-|--------------|--------|
-| **Accuracy** | 92.36% |
-| **Precision**| High   |
-| **Recall**   | High   |
-| **F1-Score** | High   |
+## 💡 Business Impact
+✅ **Improved Churn Prediction** – More accurate detection of at-risk customers  
+✅ **Data-Driven Decision Making** – Helps telecom providers implement proactive retention strategies  
+✅ **Revenue Growth** – Reduces churn-related revenue losses  
 
-The model demonstrates high accuracy and effectiveness, especially in identifying churned customers.
+---
+
+## 🔗 Next Steps
+- **Hyperparameter tuning** for further optimization  
+- **Deploy model using Flask or FastAPI** for real-world application  
+- **Enhance feature engineering** for better predictive power  
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome! Feel free to fork the project, make updates, and submit a pull request.
+Contributions are welcome! Feel free to **fork, improve, and submit a pull request**.  
 
+For any questions, feel free to connect! 🚀  
